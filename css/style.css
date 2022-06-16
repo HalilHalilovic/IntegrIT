@@ -23,6 +23,10 @@ h1 {
   font-weight: 500;
 }
 
+b {
+  color: red;
+}
+
 p {
   margin: 20px 0 10px;
   font-size: 1.1rem;
@@ -162,6 +166,7 @@ section.home {
   bottom: 0;
   right: 0;
   height: 110%;
+
 }
 
 /* SERVICES PAGE */
@@ -171,6 +176,7 @@ section.home {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   text-align: center;
+
 }
 
 .services .service {
@@ -190,52 +196,6 @@ section.home {
 
 .services .service .icon img {
   max-width: 100px;
-}
-
-/* WORK PAGE */
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.portfolio .item {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-}
-
-.portfolio .item img {
-  width: 100%;
-  height: 100%;
-}
-
-.portfolio .item .action {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.portfolio .item:hover .action {
-  opacity: 1;
-}
-
-.portfolio .item .action a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  padding: 5px 15px;
 }
 
 /* CONTACT */
@@ -305,9 +265,9 @@ section.home {
 }
 
 .contact-info {
-  width: 350px;
+  width: 5000px;
   background: #f9f9f9;
-  padding: 60px 40px 20px;
+  padding: 50px 40px 20px;
 }
 
 .contact-info .info-box {
